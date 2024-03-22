@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav{
+    color: whitesmoke;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#222;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav a{
+    color: whitesmoke;
+}
+
+.nav li{
+    padding: 5px;
+}
+
+.nav li:hover{
+    background-color: #2089f3;
+}
+
+
+.data-list{
+    
+    margin-left: 40%;
+}
+
+.data-list li{
+display: inline-block;
+margin-left: 20px;
+}
+
+.fa-chevron-down{
+    transform: rotate(0deg);
+    transition: 300ms;
+}
+.wisata:hover .fa-chevron-down{
+    transform: rotate(-90deg);
+}
+
+.AhmadSayfudin{
+    margin-left: 30px;
+}
+
+.list{
+    display: none;
+    background-color: #333;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.list li{
+    display: block;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.data-list a{
+    text-decoration: none;
+}
+
+.wisata:hover .list{
+display: block;
+
+}
+
+
+/* header================================ */
+
+
+.header{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.des-header{
+    
+    width: 45%;
+    margin: auto;
+}
+.des-header h1{
+font-weight: 800;
+font-size: 6rem;
+width: 50%;
+color: #2089f3;
+}
+
+.gambar img{
+    width: 60%;
+    height: 100vh;
+}
+
+.gambar img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.sosmed{
+    
+    position: fixed;
+    margin-top: 50vh;
+    margin-left: 30px;
+}
+.sosmed li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.sosmed .fa-whatsapp:hover{
+    color: green;
+}
+.sosmed .fa-instagram:hover{
+    color: purple;
+}
+.sosmed .fa-telegram:hover{
+    color: #00ff;
+}
+
+.sosmed .fa-brands{
+    font-size: 30px;
+    color: #2089f3;
+}
+
+
+/*  bg card================= */
+.bg-card{
+    width: 80%;
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+.card{
+    
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+.card:hover{
+    box-shadow: 00px 0px 10px #333;
+    transition: 300ms;
+}
+
+.gambar-card {
+    width: 400px;
+    height: 200px;
+overflow: hidden;
+}
+.gambar-card img {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.des-card {
+    padding: 5px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.des-card h2{
+    color: #2089f3;
+    margin-bottom: 10px;
+}
+.des-card p{
+    line-height: 25px;
+    color: #333;
+}
+
+.bg-card a{
+    text-decoration: none;
+}
+
+.card:hover img{
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+/* footer =================== */
+
+.bg-footer{
+   
+    height: 20vh;
+    background-color: #222;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 15vh;
+}
